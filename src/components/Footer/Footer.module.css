@@ -1,0 +1,124 @@
+.footer {
+    margin-top: 220px;
+    margin-bottom: 40px;
+   display: grid;
+    grid-template-areas: 
+    "call columns";
+}
+
+.footerCall {
+    grid-area: call;
+    margin-bottom: 1px;
+    font-size: 12px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.footerColumns {
+    grid-area: columns;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footerCallElements {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.footerColumn {
+    text-decoration: none;
+    color:black;
+}
+
+.footerColumn:hover {
+    color: #007bff;
+    text-decoration: none;
+    
+}
+
+.footer_copyring {
+    text-transform: uppercase;
+    margin-top: 80px;
+    font-size: 14px;
+}
+
+li {
+    font-size: 14px;
+    padding-right: 8px;
+    color: black;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.footerCallNamber {
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+}
+
+.footerCallNamber:hover {
+    color:black;
+}
+
+.footerCall_text {
+    font-size: 14px;
+    line-height: 100%;
+    padding-right: 8px;
+    text-transform: uppercase;
+}
+
+.footerCall_Logo {
+    width: 106px;
+    padding-right: 20px;
+}
+
+
+
+@media screen and (max-width: 1279px)
+ {
+  .footerCallElements {
+    display: flex;
+     flex-direction: column;
+     margin-bottom: 30px;
+    }
+    
+    .footer {
+        margin-top: 220px;
+        margin-bottom: 40px;
+        display: grid;
+        grid-template-areas: 
+        "call columns";
+    }
+
+ }
+
+ @media screen and (max-width: 770px)
+ {
+  .footer {
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas: "call" "columns";
+  }
+
+  .footerCall {
+    grid-area: call;
+  }
+
+  .footerColumns {
+      grid-area: columns;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .footerColumns {
+        padding-left: 0px;
+        grid-area: columns;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}

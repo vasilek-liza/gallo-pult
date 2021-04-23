@@ -1,0 +1,52 @@
+.slider_img {
+    min-height: 340px;
+
+}
+
+img{
+    transition: 0.3s; 
+}
+
+img:hover {
+    transform: scale(1.02);
+    overflow: hidden; 
+   }
+
+.slider {
+    margin-top: 40px;
+    max-height: 540px;
+    min-height: 340px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+img {
+    max-height: 540px; 
+}
+
+.altTextSlider_1{
+    position: absolute;
+    right: 5;
+    left: 0;
+    bottom: 15px;
+    padding: 0px 80px; 
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 2px;
+}
+
+.altTextDetails{
+    position: absolute;
+    right: 5;
+    left: 0;
+    bottom: 0px;
+    padding: 0px 80px; 
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 1px;
+}
+
+
+
+
+
